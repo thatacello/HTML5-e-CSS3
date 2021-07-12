@@ -1,11 +1,27 @@
 #caixa{
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     background-color: aquamarine;
+    padding: 50px;
+    /* box-sizing -> não deixa o padding influenciar no tamanho da caixa */
+    -webkit-sizing: border-box; 
+    -moz-sizing: border-box; 
+    box-sizing: border-box; 
+    margin: 10px;
+    -webkit-border-radius: 10px 50px 80px 100px;
+    -moz-border-radius: 10px 50px 80px 100px;
+    border-radius: 10px 50px 80px 100px;
+}
+#caixa2{
+    width: 400px;
+    height: 400px;
+    background-color: rebeccapurple;
     padding: 10px;
     margin: 10px;
-    border-radius: 200px;
+    -webkit-border-radius: 10px 50px 80px 100px;
+    -moz-border-radius: 10px 50px 80px 100px;
+    border-radius: 10px 50px 80px 100px;
 }
 .arredondamento{
-    border-radius: 200px;
+    border-radius: 150px;
 }
