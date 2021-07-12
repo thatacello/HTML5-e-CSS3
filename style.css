@@ -1,4 +1,45 @@
 
+/* animacoes */
+@-webkit-keyframes animacao-key{
+    from {
+        background: seagreen;
+    }
+    to {
+        background: pink;
+    }
+}
+@-moz-keyframes animacao-key{
+    from {
+        background: seagreen;
+    }
+    to {
+        background: pink;
+    }
+}
+@-o-keyframes animacao-key{
+    from {
+        background: seagreen;
+    }
+    to {
+        background: pink;
+    }
+}
+@keyframes animacao-key{
+    from {
+        background: seagreen;
+    }
+    to {
+        background: pink;
+    }
+}
+#animacoes{
+    width: 300px;
+    height: 300px;
+    background: seagreen;
+    animation-name: animacao-key;
+    animation-duration: 5s;
+}
+
 /* sombra */
 #sombra{
     width: 300px;
