@@ -1,3 +1,21 @@
+
+/* sombra */
+#sombra{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    color: white;
+    background: brown;
+    /* o terceiro valor é o blur(borrado) */
+    /* o quarto valor é o spread (espalhamento da sombra) */
+    box-shadow: 20px 20px 20px 20px black;
+}
+#sombra h1{
+    text-shadow: 30px 20px 5px rgba(0, 0, 0, 0.5);
+}
+
 /* degrade */
 #degrade{
     width: 300px;
