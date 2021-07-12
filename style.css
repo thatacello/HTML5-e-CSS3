@@ -1,6 +1,9 @@
 
+/* transições */
+
+
 /* animacoes */
-@-webkit-keyframes animacao-key{
+/* @-webkit-keyframes animacao-key{
     from {
         background: seagreen;
     }
@@ -23,21 +26,38 @@
     to {
         background: pink;
     }
-}
+} */
 @keyframes animacao-key{
     from {
-        background: seagreen;
+        background: orange;
+        border-radius: 0px;
+        top: 0;
+        left: 0;
     }
     to {
-        background: pink;
+        background: blue;
+        border-radius: 300px;
+        top: 200px;
+        left: 200px;
     }
 }
 #animacoes{
     width: 300px;
     height: 300px;
-    background: seagreen;
-    animation-name: animacao-key;
+    background: orange;
+    position: relative;
+
+    /* animation-name: animacao-key;
     animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: 5;
+    animation-direction: alternate; */
+
+    /* o código acima pode ser resumido em uma única linha */
+    -webkit-animation: animacao-key 5s 2s 5 alternate;
+    -moz-animation: animacao-key 5s 2s 5 alternate;
+    -o-animation: animacao-key 5s 2s 5 alternate;
+    animation: animacao-key 5s 2s 5 alternate;
 }
 
 /* sombra */
