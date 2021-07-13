@@ -1,3 +1,63 @@
+/* flexbox */
+#flexbox{
+    background: darkblue;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+    /* nowrap -> não quebra a row, permitindo que todos os itens caibam na linha */
+    flex-wrap: nowrap;
+    /* alinha os itens na horizontal */
+    justify-content: flex-end;
+    /* alinha os itens na vertical */
+    align-items: flex-end;
+}
+.item{
+    /* width: 100px;
+    height: 100px; */
+    background: white;
+    border: 1px solid chartreuse;
+    margin: 10px;
+}
+
+#flexbox2{
+    background: orangered;
+    height: 400px;
+    display: flex;
+    margin-top: 10px;
+}
+.item2{
+    /* width: 200px; */
+    height: 100px;
+    background: white;
+    border: 1px solid blueviolet;
+    margin: 10px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    /* indica o tamanho inicial do flex item antes da distribuição do espaço restante */
+    flex-basis: 100px;
+}
+.grow-item{
+    flex-grow: 1;
+}
+.grow-item2{
+    flex-grow: 2;
+}
+.shrink-item{
+    flex-shrink: 5;
+}
+.order1{
+    order: 1;
+}
+.order2{
+    order: 2;
+}
+.order3{
+    order: 3;
+}
+.order4{
+    order: 4;
+}
 
 /* transições */
 #transicoes{
