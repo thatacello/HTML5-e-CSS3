@@ -3,6 +3,41 @@
     box-sizing: content-box;
 }
 
+/* media queries  */
+/* small devices (ladscape phones) */
+@media(min-width: 576px){
+    body {
+        background-color: whitesmoke;
+    }
+}
+/* medium devices (tablets, 768px e superior) */
+@media(min-width: 768px){
+    body {
+        background-color: silver;
+    }
+}
+/* large devices (desktops, 992px e superior) */
+@media(min-width: 992px){
+    body {
+        background-color: yellowgreen;
+    }
+}
+/* extra large devices (large desktops, 1200px e superior) */
+@media(min-width: 1200px){
+    body {
+        background-color: tomato;
+    }
+}
+/* **************** */
+/* extra small devices(portraint phones) -> dispositivos menores que 575px*/
+@media(max-width: 575px){
+    body{
+        background: black;
+    }
+}
+@media(max-width: 767px){}
+@media(max-width: 991px){}
+@media(max-width: 1199px){}
 /* flexbox */
 #flexbox{
     background: darkblue;
