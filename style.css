@@ -1,3 +1,8 @@
+/* bootstrap box-sizing */
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
 /* flexbox */
 #flexbox{
     background: darkblue;
