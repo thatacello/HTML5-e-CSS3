@@ -91,6 +91,13 @@
     </ul>
     <hr>
 
+    <!-- colar no topo (sticky)  -->
+    <ul class="list-inline bg-danger sticky-top">
+        <li class="list-inline-item">Lorem, ipsum dolor.</li>
+        <li class="list-inline-item">Lorem, ipsum dolor.</li>
+        <li class="list-inline-item">Lorem, ipsum dolor.</li>
+    </ul>
+
     <!-- alinhamento de textos  -->
 
     <!-- parágrafo justificado -->
@@ -110,17 +117,41 @@
     <hr>
 
     <!-- elemento inline para block  -->
-    <span class="bg-dark d-block">Lorem, ipsum dolor. numero 1</span>
-    <span class="bg-dark d-block">Lorem ipsum dolor sit amet. numero 2</span>
+    <span class="text-light bg-dark d-block">Lorem, ipsum dolor. numero 1</span>
+    <span class="bg-secondary d-block">Lorem ipsum dolor sit amet. numero 2</span>
     <hr>
 
     <!-- elemento inline-block  -->
     <!-- somente é possível aplicar largura e altura em elementos block  -->
     <div class="bg-dark">
         <h3 class="bg-success d-inline-block" style="width: 400px;">Lorem, ipsum dolor.</h3>
-        <h3 class="bg-success d-inline-block">Lorem ipsum dolor sit amet consectetur. Illo, a!</h3>
+        <h3 class="bg-info d-inline-block">Lorem ipsum dolor sit amet consectetur. Illo, a!</h3>
     </div>
     <hr>
+
+    <!-- elementos flutuantes -->
+    <!-- clearfix resolve o problema de altura do float  -->
+    <div style="border: 1px solid pink;" class="clearfix">
+        <div class="bg-primary float-left">Float Left</div>
+        <div class="text-white bg-danger float-right">Float Right</div>
+    </div>
+    <hr>
+
+    <!-- posicionamento fixo - top e bottom  -->
+    <h1 class="fixed-top">TÍTULO FIXO</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam reprehenderit voluptatibus corporis sunt, voluptatum repudiandae. Minus quaerat sequi ipsum error, rerum aspernatur voluptate corrupti magni impedit aliquam, nulla sint ratione?</p>
+    <hr>
+
+    <!-- float responsivo  -->
+    <p class="float-sm-right">tela &gt;= 576px</p>
+    <p class="float-md-right">tela &gt;= 768px</p>
+    <p class="float-lg-right">tela &gt;= 992px</p>
+    <p class="float-xl-right">tela &gt;= 1200px</p>
+    <hr>
+
+    
+
+    
 
 
 
