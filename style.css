@@ -4,40 +4,38 @@
 }
 
 /* media queries  */
+/* **************** */
+/* extra small devices(portraint phones) -> dispositivos menores que 576px*/
+@media(max-width: 575.98px){
+    body{
+        background: black;
+    }
+}
 /* small devices (ladscape phones) */
-@media(min-width: 576px){
+@media(min-width: 576px) and (max-width: 767.98px){
     body {
         background-color: whitesmoke;
     }
 }
 /* medium devices (tablets, 768px e superior) */
-@media(min-width: 768px){
+@media(min-width: 768px) and (max-width: 991.98px){
     body {
         background-color: silver;
     }
 }
 /* large devices (desktops, 992px e superior) */
-@media(min-width: 992px){
+@media(min-width: 992px) and (max-width: 1199.98px){
     body {
         background-color: yellowgreen;
     }
 }
 /* extra large devices (large desktops, 1200px e superior) */
-@media(min-width: 1200px){
+@media(min-width: 1200px) {
     body {
         background-color: tomato;
     }
 }
-/* **************** */
-/* extra small devices(portraint phones) -> dispositivos menores que 575px*/
-@media(max-width: 575px){
-    body{
-        background: black;
-    }
-}
-@media(max-width: 767px){}
-@media(max-width: 991px){}
-@media(max-width: 1199px){}
+
 /* flexbox */
 #flexbox{
     background: darkblue;
